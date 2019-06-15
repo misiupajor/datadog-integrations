@@ -1,0 +1,7 @@
+init_config:
+
+instances:
+  - min_collection_interval: 300
+    metric_name: "aws.ami_age"
+    age: 14
+    debug: "true"
