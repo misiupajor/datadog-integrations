@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -d -v /var/run/docker.sock:/var/run/docker.sock:ro -v /proc/:/host/proc/:ro -v /sys/fs/cgroup/:/host/sys/fs/cgroup:ro -v /local/path/to/docker_image_age/conf.d:/conf.d/ -v /local/path/to/docker_image_age/checks.d:/checks.d/ -e DD_API_KEY=<redacted> -e DD_LOG_LEVEL=debug datadog/agent:latest

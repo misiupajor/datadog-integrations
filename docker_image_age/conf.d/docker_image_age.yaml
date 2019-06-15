@@ -1,0 +1,6 @@
+ad_identifiers:
+  - docker_image_age
+init_config:
+
+instances:
+  - min_collection_interval: 300
