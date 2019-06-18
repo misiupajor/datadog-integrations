@@ -1,0 +1,16 @@
+init_config:
+
+instances:
+  - min_collection_interval: 300
+    metric_name: "custom.files_expected"
+    begin_time: "9,00"
+    end_time: "12,00"
+    path: "/tmp/"
+    regex: ".*.txt" # finds all files in /tmp/ named *.txt
+
+  - min_collection_interval: 300
+    metric_name: "custom.files_expected"
+    begin_time: "09,00"
+    end_time: "16,30"
+    path: "/tmp/"
+    regex: "[0-9]+.*.jpg" # finds all files in /tmp/ named [0-9].jpg (eg. 10.jpg) using regular expression
