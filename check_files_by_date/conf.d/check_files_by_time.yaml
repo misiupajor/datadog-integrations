@@ -13,4 +13,4 @@ instances:
     begin_time: "09,00"
     end_time: "16,30"
     path: "/tmp/"
-    regex: "[0-9]+.*.jpg" # finds all files in /tmp/ named [0-9].jpg (eg. 10.jpg) using regular expression
+    regex: "[0-9]+.*.jpg" # finds all files in /tmp/ named [0-9].jpg (eg. 7.jpg) using regular expression
